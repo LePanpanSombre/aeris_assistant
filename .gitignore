@@ -1,0 +1,57 @@
+cat > .gitignore << 'EOF'
+# Environnement virtuel Python
+venv/
+env/
+.venv/
+
+# Fichiers audio temporaires
+*.wav
+*.npy
+*.mp3
+*.flac
+*.ogg
+
+# Modèles lourds (téléchargés par install.sh)
+models/ggml-*.bin
+ggml-model.bin
+*.gguf
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs et fichiers temporaires
+*.log
+temp.wav
+response.wav
+input.npy
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Configuration locale
+.env
+.env.local
+config.ini
+
+# Dossiers de build
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Raspberry Pi spécifiques
+*.img
+*.zip
+EOF
