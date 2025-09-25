@@ -13,7 +13,7 @@
 
 1. Cloner le projet :
 ```bash
-git clone https://github.com/<ton-compte>/aeris_assistant.git
+git clone https://github.com/LePanpanSombre/aeris_assistant.git
 cd aeris_assistant
 
 chmod +x install.sh
